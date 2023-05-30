@@ -1,0 +1,49 @@
+.main {
+    max-width: 850px;
+    width: 100%;
+    background-color: #f6f6f6;
+    padding-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+p {
+    font-size: 14px;
+    color: gray;
+}
+
+.name {
+    color: black;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px 16px;
+    margin-top: 20px;
+}
+
+.time {
+    display: flex;
+}
+
+.asd {
+    margin-top: 8px;
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+    color: grey;
+    margin-top: 1.2rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .work-time {
+        visibility: hidden;
+    }
+}

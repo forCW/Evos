@@ -1,0 +1,84 @@
+.main{
+    
+    max-width: 1200px;
+    background-color: #f6f6f6;
+    padding-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.box{
+    
+    background-color: white;
+    padding: 24px;
+    margin: 72px 0 96px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    display: flex;
+    margin-top: 1rem;
+    gap: 10px;
+}
+
+.MuiSvgIcon-root{
+    width: 1rem;
+    height: 1rem;
+}
+
+p{
+    font-size: 18px;
+}
+
+.container_adress{
+    margin-top: 2rem;
+}
+
+.image_way{
+    width: 500px;
+    height: 200px;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+/* .map {
+    
+} */
+
+
+@media only screen and (max-width: 1024px) {
+    .box{
+        display: block;
+    }
+
+    .image_way{
+        margin: auto;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 760px) {
+    .box{
+        display: block;
+    }
+
+    .image_way{
+        visibility: hidden;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    
+}
